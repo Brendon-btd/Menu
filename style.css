@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #F8F5F0;
+    background: #FAF8F5;
 }
 
 .header{
@@ -42,4 +42,49 @@ body{
 
 .btn:hover{
     background: #7A9179;
+}
+
+.food-type{
+    display: flex;
+    justify-content: flex-start;
+    background: #e7e6e6;
+    border-radius: 3px;
+    color: #6B6B6B;
+}
+
+.food-info{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border-bottom: 2px solid #bfbfbf;
+    color: #2C2C2C;
+}
+
+.title h1 {
+  color: black;
+  padding-left: 10px;
+}
+
+.food-img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.price{
+    color: #CC7722;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.food-info p{
+   margin-bottom: 40px;
 }
