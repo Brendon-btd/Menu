@@ -83,8 +83,26 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 180px;
+    padding-right: 8px;
 }
 
 .food-info p{
    margin-bottom: 40px;
+}
+
+/* making my menu responsive to all devices */
+
+/* Phone */
+@media (max-width: 600px){
+
+}
+
+/* tablet */
+@media (max-width: 1024px){
+    
+}
+
+/* Desktops */
+@media (max-width: 1440px){
+    
 }
