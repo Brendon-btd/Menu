@@ -94,7 +94,7 @@ body{
 
 @media (width >= 40em){
    /* 640px */
-   .food-info p{
+   .food-info {
     font-size: 3rem;
    }
 }
