@@ -92,25 +92,9 @@ body{
 
 /* making my menu responsive to phone*/
 
-@media (max-width: 600px){
-    .food-info {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 15px 10px;
-    gap: 15px;
-  }
-  
-  /* Image sizing */
-  .food-img{
-    width: 120px;
-    height: 90px;
-    object-fit: cover;
-    border-radius: 8px;
-    flex-shrink: 0;
-
-    
-
-}
-
+@media (width >= 40em){
+   /* 640px */
+   .food-info p{
+    font-size: 3rem;
+   }
 }
